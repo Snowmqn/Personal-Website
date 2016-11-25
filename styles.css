@@ -7,3 +7,13 @@
 .main-navbar {
     margin-top: 20px;
 }
+
+/*Projects*/
+.projects-title-name {
+    display: inline-block;
+}
+
+.projects-title-bull {
+    font-size: 2em;
+    margin: 0 7px;
+}
