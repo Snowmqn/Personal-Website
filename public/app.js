@@ -5,17 +5,17 @@ angular.module('magoosh', ['ui.router'])
     $stateProvider
         .state('landing', {
             url: '/',
-            templateUrl: 'js/landing/landingTmpl.html',
+            templateUrl: 'landing/landingTmpl.html',
             controller: 'landingCtrl'
         })
         .state('projects', {
             url: '/projects',
-            templateUrl: 'js/projects/projectsTmpl.html',
+            templateUrl: 'projects/projectsTmpl.html',
             controller: 'projectsCtrl'
         })
         .state('game', {
             url: '/game',
-            templateUrl: 'js/game/gameTmpl.html',
+            templateUrl: 'game/gameTmpl.html',
             controller: 'gameCtrl'
         })
 
