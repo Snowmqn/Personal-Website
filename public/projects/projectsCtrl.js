@@ -1,5 +1,5 @@
 angular.module('magoosh')
 
-.controller('aboutCtrl', function ($scope) {
+.controller('projectsCtrl', function ($scope) {
     
 });
