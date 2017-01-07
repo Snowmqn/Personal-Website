@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="magoosh">
+<head>
+    <meta charset="UTF-8">
+    <title>Magoosh Family Art</title>
+    <link rel="stylesheet" type="text/css" href="bootswatch.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">        
+</head>
+<body>
+<div class="main-body-div">
+    <nav class="navbar navbar-default main-navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" ui-sref="landing">Home</a>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a ui-sref="projects">Projects</a></li>
+                    <li><a ui-sref="game">Game</a></li>
+                    <a type="button" class="btn btn-default navbar-btn" href="https://www.linkedin.com/in/dayne-snow-60a26188" target="_blank">LinkedIn</a>
+                    <a type="button" class="btn btn-default navbar-btn" href="https://github.com/Snowmqn" target="_blank">GitHub</a>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="view-container">
+        <div ui-view></div>
+    </div>
+</div>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.1/angular-ui-router.js"></script>
+    <script src="app.js"></script>
+    <script src="game/gameCtrl.js"></script>
+    <script src="landing/landingCtrl.js"></script>
+    <script src="projects/projectsCtrl.js"></script>
+
+</body>
+</html>
